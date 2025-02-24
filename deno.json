@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "@avalero/graphql-client": "jsr:@avalero/graphql-client@^0.0.3",
+    "@cliffy/prompt": "jsr:@cliffy/prompt@1.0.0-rc.7"
+  }
+}
