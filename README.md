@@ -19,14 +19,12 @@ The script will:
 
 ## Getting Your Token
 
-1. Go to [AP Classroom](https://apclassroom.collegeboard.org)
-2. Sign in
-3. Make sure that you're on `apclassroom.collegeboard.org`
-3. Open your browser's developer tools (F12)
-4. In the console, run: `localStorage.getItem('account_access_token')`
-5. Copy the token into the script
+1. Go to [AP Classroom](https://apclassroom.collegeboard.org) and sign in
+2. Make sure that you're on `apclassroom.collegeboard.org`
+3. Run `localStorage.getItem('account_access_token')` in the devtools console
+4. Copy the token into the script (with or without quotes)
 
-## Optional Environment Variable
+## Optional environment variable
 
 You can set your bearer token as an environment variable to skip the prompt. `.env` files are also supported. Make sure to pass the `--allow-env` (and maybe `--env-file`) flag to Deno.
 
